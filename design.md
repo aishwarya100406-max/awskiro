@@ -1,84 +1,74 @@
-1. System Design Overview
+System Design Overview:
 
-The system follows a voice-first, offline-friendly design where user speech is processed locally, interpreted using cultural context, and converted into easy-to-understand responses.
+    The system follows a voice-first, offline-friendly design that converts spoken queries into culturally meaningful guidance for essential public services.
 
-2. System Components
-2.1 User Interface
+Key Components:
+    1. User Interface
 
-Voice input button
+        Single-tap voice input
 
-Large icons for service categories
+        Large, clear service icons
 
-Audio output with simple visuals
+        Audio output with simple visuals
 
-2.2 Voice Processing Module
+    2. Voice Processing Module
 
-Converts user speech into text
+        Converts speech to text
 
-Handles local accents and dialects
+        Handles local accents and dialects
 
-2.3 Cultural Context Layer
+    3. Cultural Context Layer
 
-Maps official terms to local meanings
+        Adapts official terms to local meanings
 
-Adapts measurements, time references, and practices
+        Converts formal measurements into familiar references
 
-Stores community-specific knowledge
+        Stores community-validated knowledge
 
-2.4 Service Guidance Module
+    4. Service Guidance Module
 
-Contains structured information for:
+        Structured information for:
 
-Healthcare
+        Healthcare
 
-Welfare schemes
+        Welfare schemes
 
-Education
+        Education
 
-Legal support
+        Legal support
 
-Provides step-by-step explanations
+        Provides clear, step-by-step explanations
 
-2.5 Data Storage
+    5. Data Storage
 
-Local database for offline use
+        Local storage for offline use
 
-Periodic updates when internet is available
+        Updates when internet is available
 
-3. Data Flow
+Data Flow:
 
-User speaks in local language
+    User speaks in local language
 
-Speech is processed on the device
+    Speech is processed on the device
 
-Meaning is interpreted using cultural context
+    Meaning is interpreted using cultural context
 
-Relevant service information is selected
+    Relevant service guidance is selected
 
-Response is delivered as voice + visuals
+    Response is delivered via voice and visuals
 
-4. Architecture Style
+Design Principles:
 
-Mobile-based standalone system
+    Voice-first and literacy-free
 
-Offline-first architecture
+    Offline-first approach
 
-Modular design for easy expansion
+    Simple, modular, and scalable
 
-5. Security & Privacy Design
+Future Enhancements:
 
-No sensitive personal data stored
+    Support for more regions and dialects
 
-All interactions remain on-device
+    NGO and government content updates
 
-Data sharing only with user permission
-
-6. Future Enhancements
-
-Support for more languages and regions
-
-Integration with local NGOs and government updates
-
-Image-based assistance (documents, medicines)
-
-Analytics for improving service delivery
+    Image-based assistance (documents, medicines)
