@@ -1,87 +1,65 @@
-1. Project Overview
+Target Users: 
 
-A voice-based digital assistant designed to help tribal, impoverished, and marginalized communities access healthcare, welfare schemes, education, and legal services by explaining information in culturally meaningful ways.
+  Tribal and rural community members
 
-2. Target Users
+  Low-literacy or non-literate users
 
-Tribal and rural community members
+  Community workers and NGO volunteers
 
-Low-literacy and non-literate users
+  Functional Requirements
 
-Community health workers and volunteers
+The system:
 
-NGO field workers
+    Enables voice-based interaction in local languages
 
-3. Functional Requirements
+    Works in offline or low-connectivity conditions
 
-The system shall:
+    Explains information using familiar local terms and examples
 
-Allow users to interact using voice in local languages
+    Provides step-by-step guidance for:
 
-Work in offline or low-connectivity environments
+        Healthcare instructions
 
-Explain official information using locally familiar terms and examples
+        Government welfare schemes
 
-Provide step-by-step guidance for:
+        Education-related support
 
-Healthcare instructions
+        Basic legal rights
 
-Government welfare schemes
+    Uses simple visuals and icons along with voice
 
-Education-related information
+    Offers verified, community-relevant information
 
-Basic legal rights
+Non-Functional Requirements:
 
-Support visual cues (icons/images) alongside voice output
+  Ease of Use: Simple interface for first-time users
 
-Store and retrieve community-verified information
+  Reliability: Works on low-end devices
 
-Handle basic user queries without requiring reading or typing
+  Performance: Fast response with minimal delay
 
-4. Non-Functional Requirements
+  Privacy: No personal data stored without consent
 
-Usability: Simple interface suitable for first-time users
+System Requirements:
 
-Reliability: Consistent performance in rural conditions
+    Hardware
 
-Performance: Fast voice response on low-end devices
+        Android smartphone
 
-Scalability: Ability to add new regions and languages
+        Microphone and speaker
 
-Privacy: No personal data storage without consent
+    Software :
 
-Accessibility: Designed for users with low literacy
+        Android OS
 
-5. Hardware Requirements
+        Offline speech support
 
-Android smartphone (low to mid-range)
+        Lightweight local database
 
-Microphone and speaker
+Constraints & Assumptions:
 
-Optional: basic camera (future extension)
+    Limited internet availability
 
-6. Software Requirements
+    Limited data for tribal languages
 
-Android OS
-
-Local speech recognition support
-
-Lightweight local database
-
-Optional internet connection for updates
-
-7. Constraints
-
-Limited internet availability
-
-Limited training data for tribal languages
-
-Device hardware limitations
-
-8. Assumptions
-
-Users are familiar with speaking in their local language
-
-Community experts help validate content
-
-Basic smartphone availability exists
+    Users are comfortable with voice interaction
